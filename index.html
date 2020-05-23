@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Desafio Módulo 01</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h1>
+            Pesquisa de usuário:
+          </h1>
+        </div>
+
+        <div class="row">     
+          <div class="input-field col s11">
+              <input id="idSearch" type="text" class="validate">
+              <label for="idSearch">Busca</label>
+          </div>
+          <div class="col 2 input-field"><button id="btnSearch" class="btn-floating pulse"><i class="material-icons left">search</i></button></div>
+      </div>
+
+      <div class="row">
+        <div class="col s6 center" id="divUsers">
+          Nenhum usuário filtrado
+        </div>
+        <div class="col s6 center" id="divEstatistica">
+          Nada a ser exibido         
+        </div>
+      </div>
+    
+  </body>
+  <script src="./assets/js/scripts.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
